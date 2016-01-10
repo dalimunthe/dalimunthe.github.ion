@@ -122,7 +122,13 @@ section.post {
   overflow: hidden;
   }
   @include media-query($medium-screen) {
+    position: relative;
+  width:100%;
+    height: auto;
+  overflow: hidden;
     height: 500px;
+      text-align: center;
+      text-align: -webkit-center;;
     }
 }
 
