@@ -3,12 +3,14 @@
  */
 
 /*** Google font import ***/
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:700,400,700italic,400italic);
+//@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:700,400,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:700,400,700italic,400italic);
 
 /*** Custom variables ***/
 
 // fonts & typo
-$base-font-family:      'Source Sans Pro', 'Helvetica Neue', Helvetica;
+//$base-font-family:      'Source Sans Pro', 'Helvetica Neue', Helvetica;
+$base-font-family:      'Open Sans', sans-serif;
 $heading-font-family:   $base-font-family;
 $monospace-font-family: 'Source Code Pro', Menlo, monospace;
 $base-font-size:        16px;
