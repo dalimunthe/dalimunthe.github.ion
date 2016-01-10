@@ -3,7 +3,11 @@ layout: default
 ---
 
 {% if page.image.feature %}
-<div class="post-image-feature">
+<div class="post-image-feature" style="background-image: url('{% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image.feature }}"
+  {% endif %}');">
   <img class="feature-image" src=
   {% if post.image.feature contains 'http' %}
   "{{ page.image.feature }}"
