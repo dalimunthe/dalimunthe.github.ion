@@ -25,7 +25,15 @@
     bottom: 3px;
     right: 3px;
 }
-
+.image-credit-front {
+  
+  font-weight: bold;
+  font-style: italic;
+  color: $info;
+  font-size: 13px;
+  padding-right: 20px;
+    
+}
 // Post Section
 section.post {
 	margin-bottom: 80px;
