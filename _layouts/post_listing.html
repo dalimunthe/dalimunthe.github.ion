@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: two-col
 ---
 
 {% for post in site.posts %}
@@ -23,10 +23,12 @@ layout: default
       <span class="post-date">
         {{ post.date | date: "%-d %b %Y" | upcase }}
       </span>
+      {% if post.categories.size > 0 %}
       •
-      <span class="post-author">
-        {{ author.name }}
-      </span>
+      {% for cat in post.categories %}
+      <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+      {% endfor %}
+      {% endif %}
     </p>
 
     </header>

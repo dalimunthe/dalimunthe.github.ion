@@ -22,8 +22,9 @@ pre { // only apply for code blocks
   line-height: $base-line-height * 0.925;
   word-break: break-all;
   word-wrap: break-word;
+  border: 1px solid #ccc;
   border-radius: 0;
-  font-weight: normal;
+  font-weight: bold;
 }
 pre code {
   background: transparent;
