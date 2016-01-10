@@ -134,7 +134,10 @@ section.post {
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
-  
+   @include media-query($small-screen) {
+    height: 100%;
+       width: auto;
+  }
 
     
   }
