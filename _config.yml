@@ -12,6 +12,7 @@ description: Anything I Want and I Care.
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
 url: http://dalimunthe.github.io
+permalink: pretty
 
 #
 ###################################
