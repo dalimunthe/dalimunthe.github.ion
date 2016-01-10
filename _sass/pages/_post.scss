@@ -118,8 +118,8 @@ section.post {
     height: 500px;
   overflow: hidden;
      @include media-query($small-screen) {
-    height: 100%;
-       width: auto;
+    height: auto;
+       width: 100;
   }
 
   
@@ -138,8 +138,8 @@ section.post {
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
    @include media-query($small-screen) {
-    height: 100%;
-       width: auto;
+    height: auto;
+       width: 100;
   }
 
     
