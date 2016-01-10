@@ -32,7 +32,7 @@
   }
   .author_name {
     display: block;
-    color: #dce3ef;
+    color: $usernamecolor;
     font-size: 3em;
     font-weight: 700;
     text-transform: lowercase;
@@ -41,7 +41,7 @@
   }
   .author_job {
     display: block;
-    color: $primary;
+    color: $userjob;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -66,10 +66,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $iconcolor;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($iconcolor, 14%);
         }
       }
     }
@@ -87,10 +87,10 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $userjob;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($userjob, 14%);
       }
     }
   }
