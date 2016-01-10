@@ -119,11 +119,7 @@ section.post {
   overflow: hidden;
   
 
-    @include media-query($small-screen) {
-    position: relative;
-        width:100%;
-    height: auto;
-  }
+  
     
 }
 
@@ -140,10 +136,7 @@ section.post {
           transform: translate(-50%,-50%);
   
 
-    @include media-query($small-screen) {
-    position: absolute;
-        width:100%;
-    height: auto;
+    
   }
     
 
