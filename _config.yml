@@ -3,15 +3,15 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email: 
-description: A simple and awesome blog theme powered by jekyll.
+title: Dalimunthe Blog
+email: rasyid.dalimunthe@gmail.com
+description: Anything I Want and I Care.
 # the base hostname & protocol for your site
 # If your project is placed in https://github.com/yourname/yourname.github.io at master branch
 # Then, the 'url' is: http://yourname.github.io
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
-url: 
+url: http://dalimunthe.github.io
 
 #
 ###################################
@@ -35,34 +35,34 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Rasyid
   avatar: avatar.jpg
-  job: "PHP & Ruby Developer"
-  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  job: "Spatial in Code"
+  bio: "i do some html,php and python language, sometimes make some maps sometimes i develep new things"
+  email: rasyid.dalimunthe@gmail.com
+  disqus-shortname: rssyid
+  twitter: rssyid
+  facebook: rasyid.ahyar
   google:
-    plus: #username
+    plus: +RasyidAhyarDalimunthe
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: dalimunthe
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: rssyid
   xing: #username
-  instagram: #username
-  lastfm: #username
+  instagram: rssyid
+  lastfm: earbutt
   tumblr: #username
   pinterest: #username
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
-  soundcloud: #username
+  youtube: rotttenone
+  soundcloud: rasyid-ahyar
   weibo: #username
   flickr: #username
   codepen: #username
