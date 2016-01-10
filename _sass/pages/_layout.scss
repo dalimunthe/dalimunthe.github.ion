@@ -26,16 +26,16 @@
     width: 100px;
     height: 100px;
     float: none;
-    @include media-query($medium-screen) {
-      display: none;
-    }
+    //@include media-query($medium-screen) {
+    //  display: none;
+    //}
   }
   .author_name {
     display: block;
     color: $usernamecolor;
     font-size: 3em;
     font-weight: 700;
-    text-transform: lowercase;
+    //text-transform: lowercase;
     font-style: italic;
     @include text-shadow;
   }
