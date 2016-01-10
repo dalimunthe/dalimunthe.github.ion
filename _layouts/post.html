@@ -4,10 +4,15 @@ layout: default
 
 {% if page.image.feature %}
 <div class="post-image-feature" style="background-image: url({% if post.image.feature contains 'http' %}
-  '{{ page.image.feature }}'
+  ' {{ page.image.feature }}'
   {% else %}
   '{{ site.url }}/img/{{ page.image.feature }}'
-  {% endif %});">
+  {% endif %}) , url({% if post.image.feature contains 'http' %}
+  ' {{ page.image.feature }}'
+  {% else %}
+  '{{ site.url }}/img/{{ page.image.feature }}'
+  {% endif %}); background-repeat: no-repeat;
+background-position: left, right;">
   <img class="feature-image" src=
   {% if post.image.feature contains 'http' %}
   "{{ page.image.feature }}"
