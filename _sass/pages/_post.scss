@@ -123,31 +123,8 @@ section.post {
   }
     
 }
-.post-image-feature:after{
-    content:'';
-    
-    position:absolute;
-    top:0;
-    left:0;
-    background-repeat: no-repeat;
-    background-position: left,right;
-    background-size: cover;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-}
-.feature-image-blur{
-    background-repeat: no-repeat;
-    background-position: left,right;
-    background-size: cover;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-}
+
+
   .feature-image {
       z-index:1;
   position: absolute;
